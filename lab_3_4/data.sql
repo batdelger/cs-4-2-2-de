@@ -1,19 +1,21 @@
 -- Employee
 insert into Employee (fName,lName,address,DOB,sex,position,deptNo)
-values ('Batdelger', 'Otgonbaatar', null, '1996-12-23', 'M', null, 1);
+values ('James', 'Adams', null, '1978-12-12', 'M', null, 1);
 
 insert into Employee (fName,lName,address,DOB,sex,position,deptNo)
-values ('Munkh-Undral', 'Erdenebayar', null, '1985-03-03', 'F', null, 1);
+values ('Susan', 'Boil', null, '1965-01-01', 'F', null, 1);
 
 insert into Employee (fName,lName,address,DOB,sex,position,deptNo)
-values ('Bayarbat', 'Batbayar', null, '1986-04-04', 'M', null, 1);
-
-
-insert into Employee (fName,lName,address,DOB,sex,position,deptNo)
-values('Michael', 'Smith', null, '1981-01-01', 'M', null, 2);
+values ('Britney', 'Spears', null, '1981-12-02', 'F', null, 1);
 
 insert into Employee (fName,lName,address,DOB,sex,position,deptNo)
-values ('John', 'Doe', null, '1972-02-02', 'M', null, 2);
+values('Keanu', 'Reeves', null, '1964-09-02', 'M', null, 2);
+
+insert into Employee (fName,lName,address,DOB,sex,position,deptNo)
+values ('Adam', 'Sandler', null, '1966-09-09', 'M', null, 2);
+
+insert into Employee (fName,lName,address,DOB,sex,position,deptNo)
+values ('Alicia', 'Keys', null, '1981-01-25', 'F', null, 2);
 
 
 -- Department
@@ -21,39 +23,40 @@ insert into Department (deptName, mgrEmpID)
 values ('IT', 1);
 
 insert into Department (deptName, mgrEmpID)
-values ('Sales', 2);
+values ('HR', 2);
+
 
 -- Project
 insert into Project (projName, deptNo)
-values ('Loan Module Phase 1', 1);
+values ('Automation Test Implementation', 1);
 
 insert into Project (projName, deptNo)
-values ('Kubernates Upgrade', 1);
+values ('Move to AWS', 1);
 
 insert into Project (projName, deptNo)
-values ('Happy summer sale'), 2);
+values ('Trainig Newbies'), 2);
 
 insert into Project (projName, deptNo)
-values ('Winter is coming sale'), 2);
+values ('Hiring'), 2);
 
 -- WorksOn
 insert into WorksOn (empID, projNo, hoursWorked)
-values (1, 1, 30);
+values (1, 1, 300);
 
 insert into WorksOn (empID, projNo, hoursWorked)
-values (1, 2, 30);
+values (1, 2, 330);
 
 insert into WorksOn (empID, projNo, hoursWorked)
-values (2, 2, 70);
+values (2, 2, 7000);
 
 insert into WorksOn (empID, projNo, hoursWorked)
-values (3, 1, 70);
+values (3, 1, 1350);
 
 insert into WorksOn (empID, projNo, hoursWorked)
-values (4, 3, 20);
+values (4, 3, 139);
 
 insert into WorksOn (empID, projNo, hoursWorked)
-values (4, 4, 40);
+values (4, 4, 450);
 
 insert into WorksOn (empID, projNo, hoursWorked)
-values (5, 4, 180);
+values (5, 4, 1890);
