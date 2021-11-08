@@ -1,3 +1,8 @@
+DROP TABLE WorksOn;
+DROP TABLE Project;
+DROP TABLE Department;
+DROP TABLE Employee;
+
 create table Employee (
     empID int primary key identity(1,1),
     fName varchar(100) not null,
